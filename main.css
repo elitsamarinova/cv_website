@@ -1,9 +1,15 @@
 
+h1 {
+  text-align: center;
+  color: white;
+}
+
+
+
 .col-sm-4 {
   margin: 0px 0px 0px 0px;
   padding: 50px;
 }
-
 
 .sidebar1 {
     background: #F17153;
@@ -18,33 +24,39 @@
     /* Standard syntax */
     padding: 0px;
     min-height: 100%;
+    text-align: center;
 }
+
 .logo {
-    max-height: 130px;
-}
-.logo>img {
-    margin-top: 30px;
+    max-height: 175px;
+    border-radius: 100px;
     padding: 3px;
     border: 3px solid white;
-    border-radius: 100%;
+    margin-top: 40px;
 }
+
 .list {
     color: #fff;
-    list-style: none;
     padding-left: 0px;
 }
+
 .list::first-line {
     color: rgba(255, 255, 255, 0.5);
 }
-.list> li, h5 {
+
+.list> li {
     padding: 5px 0px 5px 40px;
+    list-style: none;
 }
+
 .list>li:hover {
     background-color: rgba(255, 255, 255, 0.2);
     border-left: 5px solid white;
     color: white;
     font-weight: bolder;
     padding-left: 35px;
-}.main-content{
+}
+
+.main-content{
 text-align:center;
 }
