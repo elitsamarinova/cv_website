@@ -38,6 +38,7 @@ h1 {
 .list {
     color: #fff;
     padding-left: 0px;
+    font-size: 20px;
 }
 
 .list::first-line {
@@ -45,7 +46,7 @@ h1 {
 }
 
 .list> li {
-    padding: 5px 0px 5px 40px;
+    padding: 0px 0px 5px 0px;
     list-style: none;
 }
 
