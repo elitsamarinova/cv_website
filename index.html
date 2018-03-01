@@ -1,0 +1,159 @@
+<!-- This is the html for our Portfolio page. Should we rename this to index.html? -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Firstname's Portfolio</title>
+  <!-- Bootstrap-->
+  <link href='bootstrap/css/bootstrap.css' rel='stylesheet'>
+  <link href='main.css' rel='stylesheet'>
+  <!-- Font Awesome-->
+  <script defer src='fontawesome-free-5.0.6\svg-with-js\js\fontawesome-all.js'></script>
+  <meta name="viewport" content="width=max-device-width, initial-scale=1.0">
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Latest compiled Bootstrap JavaScript -->
+  <script src=" http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js "></script>
+
+</head>
+
+<body>
+
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-md-2 col-sm-4 sidebar1">
+                      <img src='images/Angie.jpg' class="logo" alt="Photo">
+                  <br>
+                  <div class="left-navigation">
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+
+                      <ul class="list">
+                          <li>About</li>
+                          <li>Portfolio</li>
+                          <li>Download CV</li>
+                      </ul>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+
+
+
+                      <h1>Angie Spoto</h1>
+                      <br>
+
+
+                      <i class="fab fa-twitter"></i>
+                      <i class="fab fa-linkedin-in"></i>
+                      <i class="fas fa-envelope"></i>
+
+
+
+                      <br>
+                      <br>
+
+
+                      </a>
+
+                      <br>
+                      <br>
+
+                  </div>
+              </div>
+              <div class="col-md-10 col-sm-8 main-content">
+              <!--Main content code to be written here -->
+              <div class="container">
+                  <div class="row">
+                    <div class="col-sm-4">
+
+                    <!-- Trigger the Modal -->
+                    <img class='img-responsive'id="myImg" src="images/awards-color.png" alt="this is the caption">
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                      <!-- The Close Button -->
+                      <span class="close">&times;</span>
+
+                      <!-- Modal Content (The Image) or you can add text only-->
+                      <img class="modal-content" id="img01">
+
+                      <!-- Modal Caption (Image Text) -->
+                      <div id="caption"></div>
+                    </div>
+
+                    </div>
+
+                    <div class="col-sm-4">
+
+
+                    <img class='img-responsive' src='images/awards-color.png'>
+
+                    </div>
+
+                    <div class="col-sm-4">
+
+                    <img class='img-responsive' src='images/awards-color.png'>
+
+                  </div>
+                </div>
+
+                <div class="row">
+
+                  <div class="col-sm-4">
+
+                  <img class='img-responsive' src='images/awards.png'>
+
+                  </div>
+                  <div class="col-sm-4">
+
+                  <img class='img-responsive' src='images/awards.png'>
+
+                  </div>
+                  <div class="col-sm-4">
+
+                  <img class='img-responsive' src='images/awards.png'>
+
+                </div>
+                </div>
+
+          </div>
+      </div>
+
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
+
+</body>
+</html>
