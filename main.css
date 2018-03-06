@@ -44,7 +44,26 @@ li a {
     font-family: 'Open Sans', sans-serif;
 }
 
+li a:link{
+  color: white;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
 li a:hover{
+  color: white;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+li a:visited{
+  color: white;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+li a:active{
   color: white;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
