@@ -50,6 +50,10 @@ li a:hover{
   font-family: 'Open Sans', sans-serif;
 }
 
+i {
+  color: white;
+}
+
 .list {
     color: white;
     padding-left: 0px;
