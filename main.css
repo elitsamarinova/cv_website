@@ -2,7 +2,9 @@
 h1 {
   text-align: center;
   color: white;
+  font-family: 'Pacifico', cursive;
 }
+
 
 .col-sm-4 {
   margin: 0px 0px 0px 0px;
@@ -10,15 +12,19 @@ h1 {
 }
 
 .sidebar1 {
+    background: url("background-stars.jpg");
+    background-color: #860d79;
+    background-size: cover;
+  /* for a gradient sidebar, use the below code
     background: #F17153;
     /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#F17153, #F58D63, #f1ab53);
+    /*background: -webkit-linear-gradient(#F17153, #F58D63, #f1ab53);
     /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#F17153, #F58D63, #f1ab53);
+    /*background: -o-linear-gradient(#F17153, #F58D63, #f1ab53);
     /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#F17153, #F58D63, #f1ab53);
+    /*background: -moz-linear-gradient(#F17153, #F58D63, #f1ab53);
     /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#F17153, #F58D63, #f1ab53);
+    /*background: linear-gradient(#F17153, #F58D63, #f1ab53);
     /* Standard syntax */
     padding: 0px;
     min-height: 100%;
@@ -33,17 +39,33 @@ h1 {
     margin-top: 40px;
 }
 
+li a {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li a:hover{
+  color: white;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
 .list {
-    color: #fff;
+    color: white;
     padding-left: 0px;
     font-size: 20px;
     text-decoration: none;
+
 }
 
+/*
 .list::first-line {
     color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
 }
+*/
+
+/*
 
 .list> li {
     padding: 0px 0px 5px 0px;
@@ -51,17 +73,19 @@ h1 {
     text-decoration: none;
 }
 
+*/
+
 .list>li:hover {
     background-color: rgba(255, 255, 255, 0.2);
     border-left: 5px solid white;
-    color: white;
     font-weight: bolder;
     padding-left: 35px;
-    text-decoration: none;
+
 }
 
+
 .main-content{
-text-align:center;
+  text-align:center;
 }
 
 /* Below CSS for modal images in gallery*/
