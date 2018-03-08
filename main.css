@@ -73,6 +73,8 @@ i {
   color: white;
 }
 
+
+
 .list {
     color: white;
     padding-left: 0px;
@@ -106,6 +108,9 @@ i {
 
 }
 
+.about-picture {
+  padding-left: 100px;
+}
 
 .main-content{
   text-align:center;
