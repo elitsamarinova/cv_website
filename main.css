@@ -108,13 +108,29 @@ i {
 
 }
 
-.about-picture {
-  padding-left: 100px;
-}
 
 .main-content{
   text-align:center;
 }
+
+/* Below CSS for 'About' page*/
+
+.about-img {
+  width:100%;
+  height: 100%;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.bio{
+  text-align: left;
+  margin-left: 30px;
+  width: 50%;
+  height: 50%;
+}
+
+
 
 /* Below CSS for modal images in gallery*/
 
